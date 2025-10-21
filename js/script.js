@@ -4,13 +4,24 @@ const projects = [
     title: "RouteX",
     description:
       "Sistema de gestão otimizada de rotas desenvolvido puramente em Python. Organiza rotas da rotina comercial de modo otimizado visando economizar combustível por erros de cálculo de rotas. Auxilia comerciais a diminuir erros e gastos que decorrem do erro, função que não existe no Google Maps ou Waze.",
-    images: ["assets/route1.png", "assets/route2.png", "assets/route3.png"],
+    images: [
+      "assets/routeCapa.png",
+      "assets/route1.png",
+      "assets/route2.png",
+      "assets/route3.png",
+    ],
   },
   {
     title: "Safe Vision",
     description:
       "Sistema de segurança rodoviária que envolve visão computacional para identificar no motorista sinais de distração, fadiga, furtos entre outros, conectando os dados aos gestores dessas frotas. Envolve conhecimentos em Python e desenvolvimento web para a plataforma de gestão (HTML, CSS, JavaScript).",
-    images: ["assets/safe1.png", "assets/safe2.png", "assets/safe3.png"],
+    images: [
+      "assets/safeCapa.jpg",
+      "assets/safeEquipe.jpg",
+      "assets/safe1.png",
+      "assets/safe2.png",
+      "assets/safe3.png",
+    ],
   },
 ];
 
