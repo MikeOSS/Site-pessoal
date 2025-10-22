@@ -1,285 +1,263 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Miguel Costacurta - Software Engineering Student</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <!-- Sidebar Fixa -->
-    <aside class="sidebar">
-      <div class="profile-section">
-        <div class="profile-image">
-          <img src="assets/Eu.jpg" alt="Miguel Costacurta" />
-        </div>
-        <h1 class="name">Miguel Costacurta</h1>
-        <p class="title">Software Engineering Student</p>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Miguel Costacurta - Software Engineering Student</title>
+  <link rel="icon" type="image/x-icon" href="assets/icone.ico">
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Sidebar Fixa -->
+  <aside class="sidebar">
+    <div class="profile-section">
+      <div class="profile-image">
+        <img src="assets/Eu.jpg" alt="Miguel Costacurta" />
       </div>
-
-      <div class="social-links">
-        <a
-          href="https://www.instagram.com/miguelcostacurta/"
-          target="_blank"
-          class="social-link instagram"
-        >
-          <i class="fab fa-instagram"></i>
-        </a>
-        <a
-          href="https://www.linkedin.com/in/miguel-costacurta-8208432b9"
-          target="_blank"
-          class="social-link linkedin"
-        >
-          <i class="fab fa-linkedin"></i>
-        </a>
-        <a
-          href="https://github.com/MikeOSS"
-          target="_blank"
-          class="social-link github"
-        >
-          <i class="fab fa-github"></i>
-        </a>
-      </div>
-    </aside>
-
-    <!-- Conteúdo Principal -->
-    <main class="main-content">
-      <!-- Seção Sobre Mim -->
-      <section class="section" id="about">
-        <div class="section-header">
-          <h2>Sobre Mim</h2>
-          <div class="section-line"></div>
-        </div>
-        <div class="content">
-          <p class="about-text">
-            Desde criança, sempre fui motivado a desenvolver o melhor de mim e
-            compartilhá-lo com o mundo. Sempre tive gostos ecléticos, sendo
-            curioso sobre muitos assuntos que pudessem me ajudar a crescer
-            intelectualmente. Gosto de estudar filosofia, programação,
-            empreendedorismo e tecnologia. Adoro ler, praticar esportes e
-            integrar tudo o que aprendo na minha vida profissional. Gosto de
-            pensar em mim como uma chama de uma vela, em que me gasto em prol de
-            um objetivo.
-          </p>
-          <p class="about-text">
-            Minha jornada na tecnologia é impulsionada pelo desejo de resolver
-            problemas reais e criar soluções que impactem positivamente a
-            sociedade. Combino habilidades técnicas sólidas com excelente
-            comunicação, sempre buscando aprender novas tecnologias e enfrentar
-            desafios complexos.
-          </p>
-        </div>
-      </section>
-
-      <!-- Seção Experiências -->
-      <section class="section" id="experience">
-        <div class="section-header">
-          <h2>Experiências</h2>
-          <div class="section-line"></div>
-        </div>
-        <div class="content">
-          <div class="timeline">
-            <div class="timeline-item">
-              <div class="timeline-marker"></div>
-              <div class="timeline-content">
-                <h3>Consultor Comercial</h3>
-                <h4>DVI Radiologia</h4>
-                <span class="timeline-date">Abril 2024 - Julho 2025</span>
-                <ul class="experience-list">
-                  <li>
-                    Desenvolvimento da ferramenta "RouteX" em Python, resultando
-                    em 15% de redução de custos
-                  </li>
-                  <li>
-                    Gestão e análise de grandes volumes de dados em sistemas CRM
-                    e Excel
-                  </li>
-                  <li>
-                    Comunicação ativa com clientes para identificar gargalos e
-                    propor soluções baseadas em dados
-                  </li>
-                  <li>
-                    Eliminação de erros manuais através de automação de
-                    processos
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="timeline-item">
-              <div class="timeline-marker"></div>
-              <div class="timeline-content">
-                <h3>Tutor de Física e Matemática</h3>
-                <h4>Ensino Particular</h4>
-                <span class="timeline-date">Período Atual</span>
-                <ul class="experience-list">
-                  <li>
-                    Organização de materiais com múltiplos exercícios dos
-                    principais vestibulares
-                  </li>
-                  <li>
-                    Elaboração de resumos dos conteúdos solicitados pelos alunos
-                  </li>
-                  <li>
-                    Exercício de comunicação ativa para ensinar e dar conselhos
-                    sobre os conteúdos
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Seção Projetos -->
-      <section class="section" id="projects">
-        <div class="section-header">
-          <h2>Projetos</h2>
-          <div class="section-line"></div>
-        </div>
-        <div class="content">
-          <div class="projects-grid">
-            <div class="project-card" data-project="0">
-              <div class="project-image">
-                <img
-                  src="assets/routeCapa.png"
-                  alt="RouteX - Sistema de Gestão de Rotas"
-                />
-              </div>
-              <div class="project-info">
-                <h3>RouteX</h3>
-                <p>
-                  Sistema de gestão otimizada de rotas desenvolvido em Python
-                  para organizar rotas comerciais visando economia de
-                  combustível
-                </p>
-              </div>
-            </div>
-
-            <div class="project-card" data-project="1">
-              <div class="project-image">
-                <img
-                  src="assets/safeCapa.jpg"
-                  alt="Safe Vision - Sistema de Segurança Rodoviária"
-                />
-              </div>
-              <div class="project-info">
-                <h3>Safe Vision</h3>
-                <p>
-                  Sistema de segurança rodoviária com visão computacional para
-                  identificar distração, fadiga e furtos em motoristas
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Seção Educação -->
-      <section class="section" id="education">
-        <div class="section-header">
-          <h2>Educação</h2>
-          <div class="section-line"></div>
-        </div>
-        <div class="content">
-          <div class="education-grid">
-            <div class="education-card">
-              <div class="education-icon">
-                <i class="fas fa-graduation-cap"></i>
-              </div>
-              <div class="education-content">
-                <h3>Engenharia de Software</h3>
-                <h4>
-                  Pontifícia Universidade Católica de Campinas (PUC-Campinas)
-                </h4>
-                <span class="education-period"
-                  >Janeiro 2025 - Dezembro 2028</span
-                >
-                <p>
-                  Graduação em Engenharia de Software com foco em
-                  desenvolvimento de software, algoritmos e inteligência
-                  artificial.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Seção Certificações -->
-      <section class="section" id="certifications">
-        <div class="section-header">
-          <h2>Certificações & Conquistas</h2>
-          <div class="section-line"></div>
-        </div>
-        <div class="content">
-          <div class="certifications-grid">
-            <div class="cert-card">
-              <div class="cert-icon">
-                <i class="fas fa-trophy"></i>
-              </div>
-              <div class="cert-content">
-                <h3>2º Lugar - Motiv.se PUC-Campinas</h3>
-                <h4>12ª Edição</h4>
-                <span class="cert-date">2024</span>
-                <p>
-                  Desenvolvimento de solução em visão computacional para gestão
-                  de frotas, focada na prevenção de acidentes por fadiga e
-                  comportamento de risco. Atuando nas áreas de produto,
-                  estratégia e tecnologia.
-                </p>
-              </div>
-            </div>
-
-            <div class="cert-card">
-              <div class="cert-icon">
-                <i class="fas fa-medal"></i>
-              </div>
-              <div class="cert-content">
-                <h3>1º Lugar - Inova Jovem UNICAMP</h3>
-                <h4>2018</h4>
-                <span class="cert-date">2018</span>
-                <p>
-                  Desenvolvimento de um software com geolocalização para
-                  auxiliar pequenos varejistas a identificarem oportunidades
-                  estratégicas de expansão e crescimento do negócio.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <!-- Modal de Projetos -->
-    <div class="project-modal" id="projectModal">
-      <div class="modal-overlay"></div>
-      <div class="modal-content">
-        <button class="modal-close">&times;</button>
-        <button class="modal-nav prev" id="prevBtn">
-          <i class="fas fa-chevron-left"></i>
-        </button>
-        <button class="modal-nav next" id="nextBtn">
-          <i class="fas fa-chevron-right"></i>
-        </button>
-        <div class="modal-image-container">
-          <img id="modalImage" src="" alt="" />
-        </div>
-        <div class="modal-info">
-          <h3 id="modalTitle"></h3>
-          <p id="modalDescription"></p>
-        </div>
-      </div>
+      <h1 class="name">Miguel Costacurta</h1>
+      <p class="title">Software Engineering Student</p>
     </div>
 
-    <script src="js/script.js"></script>
-  </body>
+    <div class="social-links">
+      <a href="https://www.instagram.com/miguelcostacurta/" target="_blank" class="social-link instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/miguel-costacurta-8208432b9" target="_blank" class="social-link linkedin">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/MikeOSS" target="_blank" class="social-link github">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+  </aside>
+
+  <!-- Conteúdo Principal -->
+  <main class="main-content">
+    <!-- Seção Sobre Mim -->
+    <section class="section" id="about">
+      <div class="section-header">
+        <h2>Sobre Mim</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="content">
+        <p class="about-text">
+          Desde criança, sempre fui motivado a desenvolver o melhor de mim e
+          compartilhá-lo com o mundo. Sempre tive gostos ecléticos, sendo
+          curioso sobre muitos assuntos que pudessem me ajudar a crescer
+          intelectualmente. Gosto de estudar filosofia, programação,
+          empreendedorismo e tecnologia. Adoro ler, praticar esportes e
+          integrar tudo o que aprendo na minha vida profissional. Gosto de
+          pensar em mim como uma chama de uma vela, em que me gasto em prol de
+          um objetivo.
+        </p>
+        <p class="about-text">
+          Minha jornada na tecnologia é impulsionada pelo desejo de resolver
+          problemas reais e criar soluções que impactem positivamente a
+          sociedade. Combino habilidades técnicas sólidas com excelente
+          comunicação, sempre buscando aprender novas tecnologias e enfrentar
+          desafios complexos.
+        </p>
+      </div>
+    </section>
+
+    <!-- Seção Experiências -->
+    <section class="section" id="experience">
+      <div class="section-header">
+        <h2>Experiências</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="content">
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>Consultor Comercial</h3>
+              <h4>DVI Radiologia</h4>
+              <span class="timeline-date">Abril 2024 - Julho 2025</span>
+              <ul class="experience-list">
+                <li>
+                  Desenvolvimento da ferramenta "RouteX" em Python, resultando
+                  em 15% de redução de custos
+                </li>
+                <li>
+                  Gestão e análise de grandes volumes de dados em sistemas CRM
+                  e Excel
+                </li>
+                <li>
+                  Comunicação ativa com clientes para identificar gargalos e
+                  propor soluções baseadas em dados
+                </li>
+                <li>
+                  Eliminação de erros manuais através de automação de
+                  processos
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>Tutor de Física e Matemática</h3>
+              <h4>Ensino Particular</h4>
+              <span class="timeline-date">Período Atual</span>
+              <ul class="experience-list">
+                <li>
+                  Organização de materiais com múltiplos exercícios dos
+                  principais vestibulares
+                </li>
+                <li>
+                  Elaboração de resumos dos conteúdos solicitados pelos alunos
+                </li>
+                <li>
+                  Exercício de comunicação ativa para ensinar e dar conselhos
+                  sobre os conteúdos
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section class="section" id="projects">
+      <div class="section-header">
+        <h2>Projetos</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="content">
+        <div class="projects-grid">
+          <div class="project-card" data-project="0">
+            <div class="project-image">
+              <img src="assets/routeCapa.png" alt="RouteX - Sistema de Gestão de Rotas" />
+            </div>
+            <div class="project-info">
+              <h3>RouteX</h3>
+              <p>
+                Sistema de gestão otimizada de rotas desenvolvido em Python
+                para organizar rotas comerciais visando economia de
+                combustível
+              </p>
+            </div>
+          </div>
+
+          <div class="project-card" data-project="1">
+            <div class="project-image">
+              <img src="assets/safeCapa.jpg" alt="Safe Vision - Sistema de Segurança Rodoviária" />
+            </div>
+            <div class="project-info">
+              <h3>Safe Vision</h3>
+              <p>
+                Sistema de segurança rodoviária com visão computacional para
+                identificar distração, fadiga e furtos em motoristas
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Educação -->
+    <section class="section" id="education">
+      <div class="section-header">
+        <h2>Educação</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="content">
+        <div class="education-grid">
+          <div class="education-card">
+            <div class="education-icon">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="education-content">
+              <h3>Engenharia de Software</h3>
+              <h4>
+                Pontifícia Universidade Católica de Campinas (PUC-Campinas)
+              </h4>
+              <span class="education-period">Janeiro 2025 - Dezembro 2028</span>
+              <p>
+                Graduação em Engenharia de Software com foco em
+                desenvolvimento de software, algoritmos e inteligência
+                artificial.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Certificações -->
+    <section class="section" id="certifications">
+      <div class="section-header">
+        <h2>Certificações & Conquistas</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="content">
+        <div class="certifications-grid">
+          <div class="cert-card">
+            <div class="cert-icon">
+              <i class="fas fa-trophy"></i>
+            </div>
+            <div class="cert-content">
+              <h3>2º Lugar - Motiv.se PUC-Campinas</h3>
+              <h4>12ª Edição</h4>
+              <span class="cert-date">2024</span>
+              <p>
+                Desenvolvimento de solução em visão computacional para gestão
+                de frotas, focada na prevenção de acidentes por fadiga e
+                comportamento de risco. Atuando nas áreas de produto,
+                estratégia e tecnologia.
+              </p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-icon">
+              <i class="fas fa-medal"></i>
+            </div>
+            <div class="cert-content">
+              <h3>1º Lugar - Inova Jovem UNICAMP</h3>
+              <h4>2018</h4>
+              <span class="cert-date">2018</span>
+              <p>
+                Desenvolvimento de um software com geolocalização para
+                auxiliar pequenos varejistas a identificarem oportunidades
+                estratégicas de expansão e crescimento do negócio.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal de Projetos -->
+  <div class="project-modal" id="projectModal">
+    <div class="modal-overlay"></div>
+    <div class="modal-content">
+      <button class="modal-close">&times;</button>
+      <button class="modal-nav prev" id="prevBtn">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      <button class="modal-nav next" id="nextBtn">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+      <div class="modal-image-container">
+        <img id="modalImage" src="" alt="" />
+      </div>
+      <div class="modal-info">
+        <h3 id="modalTitle"></h3>
+        <p id="modalDescription"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+
 </html>

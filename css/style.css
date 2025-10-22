@@ -35,7 +35,7 @@ body {
   position: fixed;
   left: 0;
   top: 0;
-  width: 350px;
+  width: 35vw;
   height: 100vh;
   background: var(--gradient-secondary);
   border-right: 1px solid var(--border-color);
@@ -120,14 +120,12 @@ body {
 }
 
 .social-link.instagram:hover {
-  background: linear-gradient(
-    45deg,
-    #f09433,
-    #e6683c,
-    #dc2743,
-    #cc2366,
-    #bc1888
-  );
+  background: linear-gradient(45deg,
+      #f09433,
+      #e6683c,
+      #dc2743,
+      #cc2366,
+      #bc1888);
   border-color: transparent;
 }
 
@@ -144,9 +142,10 @@ body {
 
 /* Conteúdo Principal */
 .main-content {
-  margin-left: 350px;
+  margin-left: 35vw;
   padding: 2rem;
-  max-width: 1000px;
+  width: 65vw;
+  box-sizing: border-box;
 }
 
 .section {
@@ -159,15 +158,19 @@ body {
 .section:nth-child(1) {
   animation-delay: 0.1s;
 }
+
 .section:nth-child(2) {
   animation-delay: 0.2s;
 }
+
 .section:nth-child(3) {
   animation-delay: 0.3s;
 }
+
 .section:nth-child(4) {
   animation-delay: 0.4s;
 }
+
 .section:nth-child(5) {
   animation-delay: 0.5s;
 }
@@ -595,11 +598,12 @@ body {
 /* Responsividade */
 @media (max-width: 1024px) {
   .sidebar {
-    width: 300px;
+    width: 30vw;
   }
 
   .main-content {
-    margin-left: 300px;
+    margin-left: 30vw;
+    width: 70vw;
   }
 }
 
@@ -671,10 +675,12 @@ body {
 
 /* Animações e Efeitos */
 @keyframes pulse {
+
   0%,
   100% {
     transform: scale(1);
   }
+
   50% {
     transform: scale(1.05);
   }
