@@ -23,6 +23,17 @@ const projects = [
       "assets/safe3.png",
     ],
   },
+  {
+    title: "NotaDez",
+    description:
+      "Sistema completo de gestão acadêmica desenvolvido no Projeto Integrador II (TIME 23). Permite gerenciar instituições, disciplinas, turmas e alunos, com lançamento de notas, cálculo automático de médias finais, auditoria de alterações e exportação de dados. Backend em Node.js com TypeScript e MySQL; frontend em HTML, CSS e JavaScript.",
+    images: [
+      "assets/notadezCapa.png",
+      "assets/notadez1.png",
+      "assets/notadez2.png",
+      "assets/notadez3.png",
+    ],
+  },
 ];
 
 // Variáveis globais
